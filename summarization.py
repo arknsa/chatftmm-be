@@ -64,7 +64,7 @@ Anda harus menjawab dengan **SANGAT AKURAT, ringkas, dan profesional** berdasark
                 print(f"Percobaan ke-{attempt + 1} untuk menghubungi OpenAI API...")
                 
                 response = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="gpt-4.1-mini",
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=500,
                     temperature=0.0
